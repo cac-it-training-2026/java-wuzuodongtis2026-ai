@@ -7,8 +7,17 @@ package basic.question01;
 public class Question01_2 {
 
 	public static void main(String[] args) {
-		
+
 		// TODO:ここに実装
+		// TODO:ここに実装
+		int applePrice = 100;
+		String stationery = "鉛筆";
+		int bananaPrice = applePrice;
+		String writingUtensils = stationery;
+
+		System.out.print("りんごの値段は" + applePrice + "です。");
+		System.out.print("バナナの値段は" + bananaPrice + "です。");
+		System.out.print("この筆記用具は" + writingUtensils + "です。");
 
 	}
 

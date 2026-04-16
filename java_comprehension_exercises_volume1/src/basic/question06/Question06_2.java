@@ -1,12 +1,15 @@
 package basic.question06;
 
-import java.io.IOException;
-
 public class Question06_2 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
 
-		// TODO:ここに実装
-		
+		String[] studentName = { "かなこ", "ゆうた", "あい", " かずき" };
+
+		for (String name : studentName) {
+			System.out.println(name);
+		}
+
 	}
 }
